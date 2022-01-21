@@ -1,0 +1,68 @@
+body{
+    background: #8e8e8e;
+}
+
+.main-block{
+    font-family: serif;
+    max-width: 250px;
+    background: white;
+    display: flex;
+    border-radius: 0px 10px 10px 10px;
+    
+
+}
+
+.left-block{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.right-block{
+    width: 70%;   
+}
+
+.left-block > img{
+    width: 75%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.padd{
+    padding-left: 30px;
+}
+
+.right-block > button{
+    color:blue;
+}
+
+.right-block > table{
+    margin-bottom: 35px;
+}
+
+.buttonn{
+    background: rgb(221, 131, 12);
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+}
+
+a{
+    padding: 5px 10px 0 4px;
+    border-radius: 3px 3px 3px 0;
+}
+
+#profil{
+    background: white;
+    color: black;
+    margin: 0px 5px 0 0;
+}
+
+#add{
+    background: rgb(1, 1, 128);
+    color: white;
+}   
